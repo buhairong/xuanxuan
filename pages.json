@@ -1,0 +1,32 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "玄睻宝贝"
+			}
+		}
+	    ,{
+            "path" : "pages/fillRight-20/fillRight-20",
+            "style" : {
+				"navigationBarTitleText": "20以内右侧填空"
+			}
+        }
+        ,{
+            "path" : "pages/calculate20/calculate20",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/continuationFillRight-20/continuationFillRight-20",
+            "style" : {
+				"navigationBarTitleText": "20以内右侧填空(连加连减)"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
